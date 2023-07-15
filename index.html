@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>special design </title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,200;1,300;1,400;1,800&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="scroller"></div>
+
+    <div class="settings">
+        <div class="gear">
+        <i class="fa-solid fa-gear" ></i>
+        </div>
+        <div class="setting-color">
+    <h3>Choose Colors</h3>
+    <ul class="colors">
+        <li data-color="#8a2be2" class="active"></li>
+        <li data-color="#deb887"></li>
+        <li data-color="#ed143d"></li>
+        <li data-color="#00008b"></li>
+    </ul>
+        </div>
+        <div class="background-random">
+            <h2>Background Option</h2>
+            <span class="active" data-background="yes"     >Yes</span>
+            <span data-background="no">No</span>
+        </div>
+        <div class="bullets-settings">
+            <h2>Bullets Option</h2>
+            <span data-background="yes" class="active">Yes</span>
+            <span data-background="no">No</span>
+        </div>
+        <button class="reset-opt">Reset Options</button>
+    </div>
+
+    <div class="nav-bullets">
+        <div class="bullet"  data-section=".about">
+            <div class="tooltip">About Us</div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="tooltip">Skills</div>
+
+        </div>
+        <div class="bullet"data-section=".gallery">
+            <div class="tooltip">Gallery</div>
+
+        </div>
+        <div class="bullet"data-section=".timeline">
+            <div class="tooltip">TimeLine</div>
+        </div>
+        <div class="bullet" data-section=".features">
+            <div class="tooltip">Features</div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+            <div class="tooltip">Testimonials</div>
+        </div>
+    </div>
+
+    <div class="landpage">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header">
+            <div class="logo">Alpha</div>
+            <div class="links-container">
+                <div class="links">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#timeline">TimeLine</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <button class="toggle-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+          
+        </div></div>
+
+        <div class="text">
+            <h2>We Are <span>Creative</span> Agency</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio quos quisquam ducimus praesentium.</p>
+        </div>
+    </div>
+    <div id="about" class="about">
+        <div class="container">
+    <div class="text-box">
+        <h1>About US</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique eius debitis dolores accusantium dignissimos,
+            doloremque necessitatibus deleniti earum labore qui quaerat possimus, voluptas et praesentium dolorum quidem! Iste,
+            dicta harum.</p>
+        </div>
+        <div class="img-box">
+            <img src="/imgs/isometric-business-people-talking-conference-meeting-room-team-work-process-management-teamwork-brainstorming-vector-113795540.jpg" alt="">
+        </div>
+    </div>
+    </div>
+    <div id="skills" class="skills" >
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skill-box">
+                <div class="skill-name">
+                    <p>Html</p>
+                </div>
+                <div class="skill-progress">
+                    <span data-progress="70%"></span>
+                </div>
+            </div>
+                <div class="skill-box">
+                    <div class="skill-name">
+                        <p>Css</p>
+                    </div>
+                    <div class="skill-progress">
+                        <span data-progress="70%"></span>
+                    </div>
+                </div>
+                    <div class="skill-box">
+                        <div class="skill-name">
+                            <p>Javascript</p>
+                        </div>
+                        <div class="skill-progress">
+                            <span data-progress="50%"></span>
+                        </div>
+                    
+                    </div>
+                        <div class="skill-box">
+                            <div class="skill-name">
+                                <p>Python</p>
+                            </div>
+                            <div class="skill-progress">
+                                <span data-progress="80%"></span>
+                            </div>
+                        
+                        </div>
+        </div>
+    </div>
+    <div id="gallery" class="gallery">
+    <div class="container">
+        <h2>Gallery</h2>
+        <div class="img-box">
+            <img src="imgs/img1.jpg" alt="image one">
+            <img src="imgs/img2.jpg" alt="image two">
+            <img src="imgs/img3.jpg" alt="image three">
+            <img src="imgs/img4.jpg" alt="image four">
+            <img src="imgs/img5.jpg" alt="image five">
+            <img src="imgs/img6.jpg" alt="">
+            <img src="imgs/img7.jpg" alt="">
+            <img src="imgs/img8.jpeg" alt="">
+            <img src="imgs/img9jpg.jpeg" alt="">
+            <img src="imgs/isometric-business-people-talking-conference-meeting-room-team-work-process-management-teamwork-brainstorming-vector-113795540.jpg" alt="">
+        </div>
+    </div>
+    </div>
+    <div id="timeline" class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="date">2018</div>
+                <div class="left">
+                    <h2>Test Heading</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius doloribus dolorum iusto possimus ab architecto mollitia hic quia beatae aliquid, sint provident nisi magni saepe minima alias, quisquam odio cumque!</p>
+                </div>
+                <div class="cleanfix"></div>
+                
+                <div class="right">
+                    <h2>Test Heading</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius doloribus dolorum iusto possimus ab architecto mollitia
+                        hic quia beatae aliquid, sint provident nisi magni saepe minima alias, quisquam odio cumque!</p>
+                </div>
+                <div class="cleanfix"></div>
+                <div class="left">
+                    <h2>Test Heading</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius doloribus dolorum iusto possimus ab architecto
+                        mollitia hic quia beatae aliquid, sint provident nisi magni saepe minima alias, quisquam odio cumque!</p>
+                </div>
+                <div class="cleanfix"></div>
+                <div class="right">
+                    <h2>Test Heading</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius doloribus dolorum iusto possimus ab architecto
+                        mollitia
+                        hic quia beatae aliquid, sint provident nisi magni saepe minima alias, quisquam odio cumque!</p>
+                </div>
+                <div class="cleanfix"></div>
+                <div class="right">
+                    <h2>Test Heading</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius doloribus dolorum iusto possimus ab architecto
+                        mollitia
+                        hic quia beatae aliquid, sint provident nisi magni saepe minima alias, quisquam odio cumque!</p>
+                </div>
+                <div class="cleanfix"></div>
+                <div class="left">
+                    <h2>Test Heading</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius doloribus dolorum iusto possimus ab architecto
+                        mollitia hic quia beatae aliquid, sint provident nisi magni saepe minima alias, quisquam odio cumque!</p>
+                </div>
+                <div class="cleanfix"></div>
+                <div class="left">
+                    <h2>Test Heading</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius doloribus dolorum iusto possimus ab architecto
+                        mollitia hic quia beatae aliquid, sint provident nisi magni saepe minima alias, quisquam odio cumque!</p>
+                </div>
+                <div class="cleanfix"></div>
+
+
+            </div>
+        </div>
+    </div>
+    <div id="features" class="features">
+        <h2>Our Features</h2>
+        <div class="container">
+            <div class="feat-box">
+                <img src="/imgs/Icon_01.png" alt="">
+                <h4>development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisiitatis, nulla eaque, imollitia eum repudiandae ab delectus aperiam error atque enim vero ducimus.</p>
+            </div>
+            <div class="feat-box">
+                <img src="/imgs/Icon_02.png" alt="">
+                <h4>development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisiitatis, nulla eaque, imollitia eum repudiandae ab delectus aperiam
+                    error atque enim vero ducimus.</p>
+            </div>
+            <div class="feat-box">
+                <img src="/imgs/Icon_03.png" alt="">
+                <h4>development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisiitatis, nulla eaque, imollitia eum repudiandae ab delectus aperiam
+                    error atque enim vero ducimus.</p>
+            </div>
+            <div class="feat-box">
+                <img src="/imgs/Icon_04.png" alt="">
+                <h4>development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisiitatis, nulla eaque, imollitia eum repudiandae ab delectus aperiam
+                    error atque enim vero ducimus.</p>
+            </div>
+            <div class="feat-box">
+                <img src="/imgs/Icon_05.png" alt="">
+                <h4>development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisiitatis, nulla eaque, imollitia eum repudiandae ab delectus aperiam
+                    error atque enim vero ducimus.</p>
+            </div>
+            <div class="feat-box">
+                <img src="/imgs/Icon_06.png" alt="">
+                <h4>development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisiitatis, nulla eaque, imollitia eum repudiandae ab delectus aperiam
+                    error atque enim vero ducimus.</p>
+            </div>
+            <div class="cleanfix"></div>
+        </div>
+    </div>
+    <div id="testimonials" class="testimonials">
+        <h2>Testimonials</h2>
+        <div class="container">
+            <div class="ts-box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ue dolorum mollitia ea, culpa provident placeat recusandae amet aliquid magnam rerum aperiam non cum.</p>
+                <div class="user-info">
+                    <img src="/imgs/Abhisek Tamang.jpg" alt="">
+                    <div class="text">
+                        <h4>Ahmed Hamed</h4>
+                        <p>Front End Dev</p>
+                    </div>
+                </div>
+            </div>
+                <div class="ts-box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ue dolorum mollitia ea, culpa provident placeat
+                        recusandae amet aliquid magnam rerum aperiam non cum.</p>
+                    <div class="user-info">
+                            <img src="/imgs/images.jpeg" alt="">
+                        <div class="text">
+                            <h4>Tarek Ahmed</h4>
+                            <p>back End Dev</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="ts-box">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ue dolorum mollitia ea, culpa provident placeat
+                            recusandae amet aliquid magnam rerum aperiam non cum.</p>
+                        <div class="user-info">
+                            <img src="/imgs/images (1).jpeg" alt="">
+                            <div class="text">
+                                <h4>Mohamed Ali</h4>
+                                <p>FS-Dev</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cleanfix"></div>
+                </div>
+    </div>
+    <div class="contact">
+        <div class="overlay"></div>
+        <h2>Contact us</h2>
+        <div class="container">
+            <form action="">
+                <div class="left">
+                    <input type="text" name="username" id="" placeholder="Your UserName">
+                    <input type="text" name="mobile" id="" placeholder="Your Phone Number">
+                    <input type="email" name="email" id="" placeholder="Your email">
+                    <input type="text" name="subject" id="" placeholder="Subject">
+                </div>
+
+                <div class="right">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </div>
+                <div class="cleanfix"></div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        Made with me &copy;
+    </footer>
+
+    <script src="js/page.js"></script>
+</body>
+</html>
